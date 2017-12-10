@@ -1,2 +1,4 @@
 > count
 $ exists custom_stats_file.txt
+> countHtml
+$ exists custom_stats_file.html

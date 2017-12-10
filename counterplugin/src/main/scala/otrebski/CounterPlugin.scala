@@ -12,6 +12,7 @@ object CounterPlugin extends AutoPlugin {
 
   override lazy val projectSettings = Seq(
     Keys.commands += CounterCommand.count,
+    Keys.commands += CounterCommand.countHtml,
     countFileBaseName := "stats"
   )
 }

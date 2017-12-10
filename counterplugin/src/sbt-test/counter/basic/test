@@ -1,2 +1,4 @@
 > count
 $ exists stats.txt
+> countHtml
+$ exists stats.html

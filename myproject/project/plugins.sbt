@@ -1,1 +1,1 @@
-addSbtPlugin("otrebski" % "counter" % "1.0-SNAPSHOT")
+addSbtPlugin("otrebski" % "counter" % "1.1-SNAPSHOT")
