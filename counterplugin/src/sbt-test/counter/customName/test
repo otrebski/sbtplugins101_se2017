@@ -1,0 +1,2 @@
+> count
+$ exists custom_stats_file.txt

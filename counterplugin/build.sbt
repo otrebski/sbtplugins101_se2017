@@ -2,6 +2,7 @@ import sbt.Keys.organization
 
 lazy val `counterplugin` =
   (project in file("."))
+    .enablePlugins(ScriptedPlugin)
     .settings(
       libraryDependencies ++= Seq(
         "org.scalatest" %% "scalatest" % "3.0.4" % "test"
